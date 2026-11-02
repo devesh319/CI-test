@@ -28,5 +28,5 @@ jobs:
         REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         echo '![](./bars.png)' >> report.md
-        cml comment create report.md
+        cml comment create --publish report.md
         rm report.md
