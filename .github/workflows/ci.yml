@@ -30,6 +30,6 @@ jobs:
       env:
         REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        echo '![](./bars.png)' >> report.md
+        echo '### Report Successful' >> report.md
         cml comment create --publish report.md
         rm report.md
