@@ -4,9 +4,7 @@ on:
   push
 
 permissions:
-  contents: read
-  issues: write
-  pull-requests: write
+  contents: write
 
 jobs:
   build:
